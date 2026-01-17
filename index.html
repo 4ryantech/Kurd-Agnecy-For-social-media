@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurd Agency Whatsapp</title>
+
+    <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+    var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t || {},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+    ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+      // ئەمە ناسنامە نوێیەکەی تۆیە
+      ttq.load('D5LVSO3C77UEK8Q4HJSG');
+      ttq.page();
+    }(window, document, 'ttq');
+    </script>
+    <style>
+        body { 
+            background-color: #4a5568; /* باگراوەندی ڕەساسی */
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, sans-serif; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .container { 
+            text-align: center; 
+            background-color: #2d3748; 
+            padding: 40px; 
+            border-radius: 25px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            width: 85%;
+            max-width: 380px;
+            border: 1px solid #718096;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #3b82f6;
+            margin-bottom: 20px;
+            object-fit: cover;
+            background-color: #eee;
+        }
+        h1 { font-size: 22px; margin-bottom: 5px; color: #fff; }
+        p { color: #cbd5e0; margin-bottom: 25px; }
+        .loader {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="Kurd Agency" class="logo">
+        
+        <h1>Kurd Agency Whatsapp</h1>
+        <div class="loader"></div>
+        <p id="statusText">چاوەڕێ بکە بۆ گواستنەوە...</p>
+    </div>
+
+    <script>
+        // وەرگرتنی داتا لە لینکەکەوە
+        const params = new URLSearchParams(window.location.search);
+        const phone = params.get('p') || '9647729585559'; 
+        const name = params.get('n') || 'Kurd Agency';
+
+        if(params.get('n')) {
+            document.getElementById('statusText').innerText = "بەخێرهاتیت بۆ " + name;
+        }
+
+        // تۆمارکردنی ئیڤێنت و ڕەوانەکردن
+        setTimeout(() => {
+            ttq.track('Contact'); // تۆمارکردن لە پیکسڵە نوێیەکە
+            window.location.href = "https://wa.me/" + phone;
+        }, 2500);
+    </script>
+
+</body>
+</html>
